@@ -18,7 +18,7 @@ export default function Home() {
     if(!loading){
       if(user){
         // load data from db
-        fetch(`http://localhost:3000/todos/email/${user.email}`)
+        fetch(`https://my-app-2-7jrx.onrender.com/todos/email/${user.email}`)
         .then(res=> res.json())
         .then(data=> setTodoItems(data));
         localStorage.clear();
