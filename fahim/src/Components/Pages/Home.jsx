@@ -43,7 +43,7 @@ export default function Home() {
       const userEmail = user.email;
       const myTodo = {userEmail, data}
 
-      fetch('http://localhost:3000/todos', {
+      fetch('https://my-app-2-7jrx.onrender.com/todos', {
         method: 'POST',
         headers: {
           'content-type' : 'application/json'
