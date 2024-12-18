@@ -24,6 +24,5 @@ export default {
     extend: {},
   },
   plugins: [
-    require('daisyui'),
   ],
 }
