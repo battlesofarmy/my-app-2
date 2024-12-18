@@ -64,7 +64,7 @@ export default function Home() {
     
     if(user){
       // delete from db
-      fetch( `http://localhost:3000/todos/${id}`, {
+      fetch( `https://my-app-2-7jrx.onrender.com/todos/${id}`, {
         method : 'DELETE'
       })
       .then(res=>res.json())
@@ -93,7 +93,7 @@ export default function Home() {
     
     if(user){
       // updta on db
-      fetch( `http://localhost:3000/todos/${id}`, {
+      fetch( `https://my-app-2-7jrx.onrender.com/todos/${id}`, {
         method : 'PUT',
         headers: {
            "content-type" : 'application/json'
